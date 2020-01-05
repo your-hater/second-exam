@@ -1,0 +1,50 @@
+.news {
+    background: url("../images/bg-news.jpg") no-repeat top center;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+    text-align: center;
+}
+
+.slider {
+    margin-top:100px;
+    &__title {
+        font-size: 22px;
+        letter-spacing: 1px;
+        width:350px;
+    }
+
+    &__text {
+        font-size:18px;
+        width:350px;
+       
+    }
+
+    &__img {
+        width: 350px;
+    }
+
+    &__item {
+        
+        height:350px;
+       
+    }
+
+
+    &__info {
+        background: whitesmoke;
+        height: 200px;
+        width:350px;
+    }
+
+    
+    &__author {
+        margin-top:20px;
+    }
+}
+
+.news-title {
+    padding-top:180px;
+    font-size: 44px;
+    color:whitesmoke;
+}
